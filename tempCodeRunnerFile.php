@@ -1,5 +1,4 @@
 <?php
-e = '18';
-// $idade = "$nome";
-// echo gettype($idade) . "\t" . $idade . "\n";
-// echo "My
+or($i=0; $i<count($lista); $i++){
+//     echo "$lista[$i]\n";
+// }
