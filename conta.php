@@ -63,5 +63,5 @@ $conta1->saque(200);
 $conta1->transferencia($conta2, 400);
 
 $conta1->verificarExtrato();
-$conta2->verificarExtrato();
+// $conta2->verificarExtrato();
 ?>

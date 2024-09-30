@@ -29,8 +29,8 @@ class Conta
             echo "Valor inválido";
         }
     }
-    public function transferencia($valor, $destino){
-        if ($valor >= $this->saldo && $valor > 0){
+    public function transferencia($destino, $valor){
+        if ($this->saldo >= $valor && $valor > 0){
             $this->saldo -= $valor;
             $this->extrato[] = array('valor' => $valor, 'operacao' => 'transferencia');
             $destino->deposito($valor);
